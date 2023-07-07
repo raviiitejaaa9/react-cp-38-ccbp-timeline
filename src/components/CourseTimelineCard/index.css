@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.course-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  width: 13px;
+  height: 13px;
+}
+.course-title {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.icon-para {
+  font-size: 13px;
+  margin-bottom: 8px;
+}

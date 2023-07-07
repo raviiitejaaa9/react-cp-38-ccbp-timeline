@@ -1,0 +1,40 @@
+/* Write your CSS here 
+categoryId
+: 
+"PROJECT"
+description
+: 
+"A tourism website enables the user to browse through the images of popular destinations."
+duration
+: 
+"1 hr"
+id
+: 
+"a19d93d6-bdac-479e-b554-974ef9e6e66c"
+imageUrl
+: 
+"https://assets.ccbp.in/frontend/react-js/projects-s4-img.png"
+projectTitle
+: 
+"Tourism Website"
+projectUrl
+: 
+"https://tourismapp.ccbp.tech/"
+title
+: 
+"21 DECEMBER 2020"
+*/
+
+.project-image {
+  width: 100%;
+  height: 80%;
+  margin-bottom: 8px;
+}
+
+.visit-btn {
+  border: none;
+  background-color: transparent;
+  color: #0967d2;
+  text-decoration: none;
+  font-weight: 800;
+}

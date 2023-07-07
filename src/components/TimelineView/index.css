@@ -1,0 +1,79 @@
+/* Write your CSS here 
+categoryId
+: 
+"COURSE"
+courseTitle
+: 
+"Responsive Website"
+description
+: 
+"Build a responsive website that appears beautifully on the screen of any size. Develop a personal portfolio website, an E-commerce product listing website and a website to host conferences and events."
+duration
+: 
+"12 days"
+id
+: 
+"40b82899-fdf7-4a3e-a43a-41a9917b4582"
+tagsList
+: 
+(7) [{…}, {…}, {…}, {…}, {…}, {…}, {…}]
+title
+: 
+"5 JANUARY 2021"
+
+
+const getCourseList = () => {
+    const courseList = timelineItemsList.filter(
+      eachItem => eachItem.categoryId === 'COURSE',
+    )
+    return courseList
+  }
+
+  const courseList = getCourseList()
+*/
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-head {
+  color: #171f46;
+  font-size: 22px;
+}
+
+.app-head-2 {
+  color: #171f46;
+  font-size: 32px;
+}
+
+.each-chrono {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: 260px;
+  padding: 5px;
+}
+
+.tags-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.list-item {
+  background-color: gray;
+  color: #1e293b;
+  border-radius: 4px;
+  margin: 5px;
+  height: 24px;
+  font-size: 12px;
+  padding: 5px;
+  color: #1e293b;
+}
